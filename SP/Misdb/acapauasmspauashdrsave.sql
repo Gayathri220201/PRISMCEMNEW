@@ -40,7 +40,7 @@ grant exec on acapauasmspauashdrsave to public
  /*Abhijith KP			28/07/2023			EPE-62647			*/
  /*Abhijith	KP			31/08/2023			EPE-62647:EPE-68610	*/
 /******************************************************************************************/  
-Create procedure acapauasmspauashdrsave       
+Create or alter  procedure acapauasmspauashdrsave       
       @assetclass      fin_assetclass  ,  
       @assetdescription    fin_desc40  ,  
       @assetgrpnum     fin_group  ,  
