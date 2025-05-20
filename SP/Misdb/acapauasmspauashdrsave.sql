@@ -59,7 +59,7 @@ Create or alter  procedure acapauasmspauashdrsave
       @guid     fin_guid,  
       @lastmodificationby    fin_ctxt_user  ,  
       @lastmodifieddate    fin_date  ,  
-   @remarks               fin_desc255,--code added by Rahul For the defect id ES_ACAP_00865  
+  -- @remarks               fin_desc255,--code added by Rahul For the defect id ES_ACAP_00865  
   /*code modified for EPE-8428 - Harithra*/  
    @accountcode           fin_accountcode, --Input   
    @accountdescription    fin_accountdesc, --Input   
