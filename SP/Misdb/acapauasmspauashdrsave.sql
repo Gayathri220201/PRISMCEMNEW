@@ -362,8 +362,8 @@ begin
 		  and   ard.account_code  = mac.account_no    
 		  and   ard.fb_id     = @fb   
 		  and   ard.asset_class   = @assetclass    
-		  and   ard.asset_usage   = 'DEPREC'    
-		  and   upper(mac.center_no)= upper(@costcenter)  
+		 -- and   ard.asset_usage   = 'DEPREC'    
+		 -- and   upper(mac.center_no)= upper(@costcenter)  
 		  )    
 	   begin  
 		exec fin_german_raiserror_sp 'ACAP',@ctxt_language,1900027507,@costcenter  
